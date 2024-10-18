@@ -1,0 +1,66 @@
+body {
+    background-image: url('gambar/belajar.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -150px;
+}
+
+
+#header {
+    background-color: rgb(0,5,74);
+    background: linear-gradient(90deg, rgba(0,5,74,1)0%, rgba(0,212,255,1)100%);
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+    padding: 1%;
+    border-radius: 16px;
+    
+}
+
+#div {
+    background-color: rgba(60, 63, 63, 0.5);
+    backdrop-filter: blur(2px);
+    margin-top: 1%;
+    padding: 2%;
+    display: flex;
+    border-radius: 16px;
+}
+
+.intruksi {
+   padding-top: 0%;
+   padding-left: 5%;
+   text-align: justify;
+   font-weight: bold;
+   color: rgba(255, 255, 255, 1);
+}
+
+.video {
+    padding-top: 1%;
+}
+
+.tombol {
+    border-top: 2px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+}
+
+.jawaban {
+    margin-top: 2%;
+    padding: 2%;
+    background-color: rgba(6, 10, 224, 0.5);
+    border-radius: 10px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+}
+
+.bahasa {
+    margin-top: 2%;
+    padding: 2%;
+    background-color: rgba(6, 10, 224, 0.5);
+    border-radius: 10px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.8);
+
+}
+@media screen and (max-width: 563){
+    #div{
+        flex-direction: column;
+    }
+}
